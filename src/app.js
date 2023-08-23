@@ -120,7 +120,7 @@ app.post("/login", async (req, res) => {
       fname: useremail.firstname,
       lname: useremail.lastname,
       yourCourse: useremail.course,
-      isMatch: isMatch,
+      // isMatch: isMatch,
     };
 
     if (isMatch) {
