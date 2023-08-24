@@ -27,9 +27,6 @@ app.set("views", template_path);
 hbs.registerPartials(partials_path);
 
 app.get("/", (req, res) => {
-  //   const data = {
-  //     isAuthenticated: !req.cookies.jwt, // Convert JWT presence to a boolean
-  //   };
   res.render("index");
 });
 
